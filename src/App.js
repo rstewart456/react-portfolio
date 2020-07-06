@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { getProjects } from './actions/projects'
 import { useDispatch } from 'react-redux'
 import Nav from './components/Nav'
+
+
 function App() {
 
   const dispatch = useDispatch()

@@ -1,0 +1,12 @@
+.code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.opacity-80 {
+    opacity: .8;
+}
+
+.opacity-90 {
+    opacity: .95;
+}

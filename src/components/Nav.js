@@ -29,7 +29,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className='fixed text-white p-2 h-12 w-full bg-black lg:flex items-center lg:justify-between z-50'>
+      <div className='code fixed text-white p-2 h-12 w-full bg-black lg:flex items-center lg:justify-between z-50'>
         <div className='flex justify-between items-center'>
           <div>Ronald Portfolio</div>
           {isOpen ? (
@@ -54,7 +54,7 @@ const Nav = () => {
             smooth={true}
             duration={700}
             onClick={() => setisOpen(!isOpen)}
-            className='block p-3 text-white bg-black hover:text-indigo-600 link'
+            className='block p-3 text-white bg-black hover:text-indigo-600 cursor-pointer'
           >
             Home
           </Link>
@@ -63,7 +63,7 @@ const Nav = () => {
             smooth={true}
             duration={700}
             onClick={() => setisOpen(!isOpen)}
-            className='block p-3 text-white bg-black hover:text-indigo-600 link'
+            className='block p-3 text-white bg-black hover:text-indigo-600 cursor-pointer'
           >
             Projects
           </Link>

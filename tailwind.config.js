@@ -1,12 +1,12 @@
-// tailwind.config.js
 module.exports = {
   purge: [
-    './src/**/*.html', 
-    './src/**/*.tsx', 
-    './src/**/*.ts', 
+    './src/**/*.html',
     './src/**/*.js',
+    './src/**/*.tsx'
   ],
-  theme: {},
+  theme: {
+    extend: {},
+  },
   variants: {},
   plugins: [],
 }
