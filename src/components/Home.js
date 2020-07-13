@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "@mdi/react";
-import { mdiEmail, mdiLinkedin, mdiGithub } from "@mdi/js";
+import { mdiEmail, mdiLinkedin, mdiGithub, mdiTwitter } from "@mdi/js";
 import codeimage from "../assets/image/coding-bg.png";
 
 export const Home = () => {
@@ -48,6 +48,14 @@ export const Home = () => {
             <Icon
               className="hover:bg-indigo-800 rounded-lg"
               path={mdiGithub}
+              title="Github"
+              size={3}
+            />
+          </a>
+          <a target='_blank' rel="noopener noreferrer" href="https://twitter.com/RonaldS22601354">
+            <Icon
+              className="hover:bg-indigo-800 rounded-lg"
+              path={mdiTwitter}
               title="Github"
               size={3}
             />
